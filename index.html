@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mari Carmen | Libros personalizados con alma</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #F8F6F5;
+      color: #4B3A52;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(135deg, #BEA1C6, #E8DBDA);
+      color: white;
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+    header h1 {
+      margin: 0 0 10px;
+      font-size: 42px;
+    }
+    header p {
+      max-width: 750px;
+      margin: 0 auto;
+      font-size: 20px;
+    }
+    .cta-top {
+      display: inline-block;
+      margin-top: 24px;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      padding: 14px 24px;
+      border-radius: 12px;
+      font-weight: bold;
+    }
+    .section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 50px 20px;
+    }
+    .section h2 {
+      text-align: center;
+      color: #7B5A8E;
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+    .section-intro {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 35px;
+      font-size: 18px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 24px;
+    }
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 6px 18px rgba(75, 58, 82, 0.10);
+      text-align: center;
+    }
+    .cover {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 16px;
+      background: #E8DBDA;
+      margin-bottom: 18px;
+    }
+    .placeholder {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 46px;
+      color: #7B5A8E;
+    }
+    .card h3 {
+      margin: 0 0 10px;
+      color: #4B3A52;
+      font-size: 24px;
+    }
+    .tag {
+      display: inline-block;
+      background: #F3ECF5;
+      color: #7B5A8E;
+      padding: 6px 12px;
+      border-radius: 999px;
+      font-size: 14px;
+      margin-bottom: 14px;
+    }
+    .emotion-box {
+      background: white;
+      border-left: 6px solid #BEA1C6;
+      padding: 28px;
+      border-radius: 18px;
+      box-shadow: 0 6px 18px rgba(75, 58, 82, 0.08);
+      margin-top: 20px;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .service {
+      background: white;
+      border-radius: 18px;
+      padding: 22px;
+      box-shadow: 0 6px 18px rgba(75, 58, 82, 0.08);
+      text-align: center;
+    }
+    .service strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #7B5A8E;
+      font-size: 18px;
+    }
+    .price-box {
+      background: #7B5A8E;
+      color: white;
+      border-radius: 22px;
+      padding: 35px 25px;
+      text-align: center;
+      box-shadow: 0 8px 20px rgba(75, 58, 82, 0.18);
+    }
+    .price-box h2 {
+      color: white;
+    }
+    .cta-final {
+      background: linear-gradient(135deg, #4B3A52, #7B5A8E);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .cta-final h2 {
+      margin-top: 0;
+      font-size: 34px;
+    }
+    .cta-final p {
+      max-width: 700px;
+      margin: 0 auto 24px;
+      font-size: 18px;
+    }
+    .cta-button {
+      display: inline-block;
+      background: #25D366;
+      color: white;
+      text-decoration: none;
+      padding: 15px 28px;
+      border-radius: 12px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    footer {
+      text-align: center;
+      padding: 22px;
+      font-size: 14px;
+      color: #7B5A8E;
+      background: #F3ECF5;
+    }
+    @media (max-width: 700px) {
+      header h1 { font-size: 32px; }
+      header p { font-size: 18px; }
+      .section h2 { font-size: 28px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Libros personalizados con alma 💜</h1>
+  <p>Hay historias que merecen ser recordadas para siempre. Yo convierto recuerdos, emociones y momentos únicos en libros que se guardan toda la vida.</p>
+  <a class="cta-top" href="https://wa.me/34605519500?text=Hola%2C%20me%20gustar%C3%ADa%20encargar%20un%20libro%20personalizado">Escríbeme por WhatsApp</a>
+</header>
+
+<section class="section">
+  <h2>Historias que nacen del corazón y se quedan para siempre</h2>
+  <p class="section-intro">Cada libro está pensado para emocionar. No son solo páginas: son recuerdos, homenajes, aventuras y regalos con significado.</p>
+  <div class="emotion-box">
+    <p><strong>Creo libros únicos</strong> para niños, familias, abuelos y personas especiales. Cada historia se adapta a la vida, los recuerdos y la emoción de quien la recibe.</p>
+    <p>Si quieres regalar algo distinto, íntimo y realmente inolvidable, aquí puedes encontrar una forma preciosa de hacerlo.</p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Mis libros</h2>
+  <p class="section-intro">Aquí puedes ver algunos de los libros y proyectos que ya has creado. Más adelante podrás añadir sus portadas reales cuando quieras.</p>
+
+  <div class="grid">
+    <div class="card">
+      <div class="cover placeholder">📘</div>
+      <h3>Diego y Theo</h3>
+      <div class="tag">Aventura infantil</div>
+      <p>Historias llenas de imaginación, ternura y emoción para los más pequeños.</p>
+    </div>
+
+    <div class="card">
+      <div class="cover placeholder">🦖</div>
+      <h3>Bruno y el Dinosaurio</h3>
+      <div class="tag">Cuento interactivo</div>
+      <p>Una aventura divertida y mágica que convierte la lectura en una experiencia especial.</p>
+    </div>
+
+    <div class="card">
+      <div class="cover placeholder">💜</div>
+      <h3>Andrea</h3>
+      <div class="tag">Novela juvenil</div>
+      <p>Una historia más intensa y emocional, pensada para lectores que buscan sentir de verdad.</p>
+    </div>
+
+    <div class="card">
+      <div class="cover placeholder">🕊️</div>
+      <h3>Libro homenaje a abuelos</h3>
+      <div class="tag">Recuerdo para siempre</div>
+      <p>Un libro lleno de amor para conservar la esencia y la historia de una persona inolvidable.</p>
+    </div>
+
+    <div class="card">
+      <div class="cover placeholder">👨‍👦</div>
+      <h3>Lucas y Papá Wilson</h3>
+      <div class="tag">Cuento emocional</div>
+      <p>Un relato con alma, creado para trabajar vínculos, emociones y recuerdos familiares.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Qué tipo de libros puedes encargar</h2>
+  <div class="services">
+    <div class="service">
+      <strong>Libros infantiles</strong>
+      Historias personalizadas con nombres, detalles y aventuras únicas.
+    </div>
+    <div class="service">
+      <strong>Libros homenaje</strong>
+      Recuerdos de vida para madres, padres, abuelos y personas muy queridas.
+    </div>
+    <div class="service">
+      <strong>Historias familiares</strong>
+      Relatos creados a medida para cumpleaños, aniversarios o momentos especiales.
+    </div>
+    <div class="service">
+      <strong>Regalos emocionales</strong>
+      Un detalle distinto, íntimo y precioso para emocionar de verdad.
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="price-box">
+    <h2>Precios personalizados</h2>
+    <p>Cada libro es único, por eso el presupuesto se adapta según la historia, la extensión, el nivel de personalización y si lo quieres en digital o preparado para imprimir.</p>
+    <p><strong>Cuéntame tu idea y te digo la mejor opción para tu libro.</strong></p>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Ejemplos que emocionan 💜</h2>
+  <p class="section-intro">Historias reales que tocan el corazón y se convierten en recuerdos para siempre…</p>
+
+  <div class="grid">
+
+    <div class="card">
+      <div class="cover placeholder">🕊️</div>
+      <h3>Para una abuela</h3>
+      <p><em>"No quería olvidar su voz… ni la forma en la que me llamaba."</em></p>
+      <p>Un libro que recoge toda una vida, sus recuerdos, su esencia… y ese amor que nunca se va.</p>
+      <a class="cta-top" href="https://wa.me/34605519500?text=Quiero%20un%20libro%20homenaje%20para%20una%20abuela">Quiero uno como este</a>
+    </div>
+
+    <div class="card">
+      <div class="cover placeholder">👶</div>
+      <h3>Para un niño</h3>
+      <p><em>"Quería que viviera una aventura donde él fuera el protagonista."</em></p>
+      <p>Un cuento mágico con su nombre, sus gustos y su mundo… donde todo gira a su alrededor.</p>
+      <a class="cta-top" href="https://wa.me/34605519500?text=Quiero%20un%20cuento%20personalizado%20para%20ni%C3%B1o">Quiero uno como este</a>
+    </div>
+
+    <div class="card">
+      <div class="cover placeholder">💞</div>
+      <h3>Historia de vida</h3>
+      <p><em>"Hay historias que merecen ser contadas antes de que se olviden."</em></p>
+      <p>Un libro único para guardar recuerdos, momentos y emociones para siempre.</p>
+      <a class="cta-top" href="https://wa.me/34605519500?text=Quiero%20un%20libro%20de%20historia%20de%20vida">Quiero uno como este</a>
+    </div>
+
+    <div class="card">
+      <div class="cover placeholder">🧩</div>
+      <h3>Niños con necesidades especiales</h3>
+      <p><em>"Quería que se sintiera comprendido, especial… y protagonista de su propia historia."</em></p>
+      <p>Cuentos adaptados con cariño, pensados para trabajar emociones, autoestima y situaciones reales.</p>
+      <a class="cta-top" href="https://wa.me/34605519500?text=Quiero%20un%20cuento%20adaptado%20para%20necesidades%20especiales">Quiero uno como este</a>
+    </div>
+
+  </div>
+</section>
+
+<section class="cta-final">
+  <h2>¿Quieres encargar una historia única?</h2>
+  <p>Escríbeme por WhatsApp y cuéntame a quién va dirigido el libro. Yo me encargo de convertir esa emoción en un recuerdo inolvidable.</p>
+  <a class="cta-button" href="https://wa.me/34605519500?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20un%20libro%20personalizado">Encargar mi libro</a>
+</section>
+
+<footer>
+  Mari Carmen · Libros personalizados con alma
+</footer>
+
+</body>
+</html>
+
