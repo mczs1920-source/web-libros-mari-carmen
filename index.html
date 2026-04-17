@@ -3,48 +3,74 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mari Carmen | Libros personalizados</title>
+<title>Mari Carmen | Libros personalizados con alma</title>
 
 <style>
+* { box-sizing: border-box; }
 body {
   font-family: Arial;
   margin: 0;
   background: #F8F6F5;
-  text-align: center;
   color: #4B3A52;
 }
 
 header {
-  background: #BEA1C6;
+  background: linear-gradient(135deg, #BEA1C6, #E8DBDA);
   color: white;
+  text-align: center;
   padding: 60px 20px;
 }
 
-h1 { margin: 0; }
-
-.section {
-  padding: 40px 20px;
-}
+header h1 { font-size: 40px; margin: 0; }
 
 .cta {
-  display: inline-block;
-  margin-top: 20px;
   background: #25D366;
   color: white;
-  padding: 15px 25px;
-  border-radius: 10px;
+  padding: 14px 24px;
+  border-radius: 12px;
   text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
   font-weight: bold;
 }
 
-.tel {
-  margin-top: 20px;
-  font-size: 22px;
-  font-weight: bold;
+.section {
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.cover {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.cta-final {
+  background: #7B5A8E;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
 }
 
 footer {
-  margin-top: 40px;
+  text-align: center;
   padding: 20px;
   font-size: 14px;
 }
@@ -55,25 +81,60 @@ footer {
 
 <header>
 <h1>Libros personalizados con alma 💜</h1>
-<p>Regalos únicos que emocionan para siempre</p>
+<p>Convierto recuerdos en historias que se quedan para siempre</p>
+
+<a class="cta" href="https://web.whatsapp.com/send?phone=34605519500&text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20un%20libro%20personalizado">
+Escríbeme por WhatsApp
+</a>
 </header>
 
 <section class="section">
+<h2>Mis libros</h2>
 
-<h2>Escanea o escríbeme directamente</h2>
+<div class="grid">
 
-<a class="cta" href="https://wa.me/34605519500">
-Escríbeme por WhatsApp
-</a>
-
-<div class="tel">
-📞 605 51 95 00
+<div class="card">
+<img src="diego1.jpg" class="cover">
+<h3>Diego y Theo</h3>
+<p>Aventura infantil llena de magia</p>
 </div>
 
+<div class="card">
+<img src="andrea1.jpg" class="cover">
+<h3>Andrea</h3>
+<p>Historia emocional juvenil</p>
+</div>
+
+<div class="card">
+<img src="abuela.jpg" class="cover">
+<h3>Para una abuela</h3>
+<p><em>"No quería olvidar su voz… ni la forma en la que me llamaba."</em></p>
+<p>Un recuerdo que se queda para siempre</p>
+<a class="cta" href="https://web.whatsapp.com/send?phone=34605519500&text=Quiero%20un%20libro%20para%20una%20abuela">
+Quiero uno como este
+</a>
+</div>
+
+<div class="card">
+<img src="lucas.png" class="cover">
+<h3>Lucas y Papá Wilson</h3>
+<p>Cuento emocional familiar</p>
+</div>
+
+</div>
+</section>
+
+<section class="cta-final">
+<h2>¿Quieres encargar una historia única?</h2>
+<p>Cuéntame a quién va dirigido y lo creo para ti</p>
+
+<a class="cta" href="https://web.whatsapp.com/send?phone=34605519500&text=Hola%2C%20quiero%20encargar%20un%20libro">
+Encargar mi libro
+</a>
 </section>
 
 <footer>
-Mari Carmen · Libros personalizados
+Mari Carmen · Libros personalizados con alma
 </footer>
 
 </body>
